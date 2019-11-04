@@ -26,6 +26,18 @@ class SpotsListViewController: UIViewController {
         spots.spotArray.append(Spot(name: "Pino's Pizza", address: "Cleveland Circle", coordinate: CLLocationCoordinate2D(), averageRating: 0.0, numberOfReviews: 0, postingUserID: "", documentID: ""))
         
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowSpot" {
+            let destination = segue.destination as! SpotDetailViewController
+            let selectedIndexPath = tableView.indexPathForSelectedRow!
+            destination.spot = spots.spotArray[selectedIndexPath.row]
+        } else {
+            if let selectedIndexPath = tableView.indexPathForSelectedRow {
+                tableView.deselectRow(at: selectedIndexPath, animated: true)
+            }
+        }
+    }
 }
 
 extension SpotsListViewController: UITableViewDelegate, UITableViewDataSource {
