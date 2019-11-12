@@ -18,6 +18,9 @@
 		3E8390EA206597F600512DEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8390E8206597F600512DEA /* LaunchScreen.storyboard */; };
 		AE1F0BC7236FBD7900D3C767 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE1F0BC6236FBD7800D3C767 /* GoogleService-Info.plist */; };
 		AE297A492379C2B500056298 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE297A482379C2B500056298 /* Review.swift */; };
+		AE297A4B2379DDB300056298 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE297A4A2379DDB300056298 /* Reviews.swift */; };
+		AE297A4D2379FC8C00056298 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE297A4C2379FC8C00056298 /* Photo.swift */; };
+		AE297A4F2379FD4E00056298 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE297A4E2379FD4E00056298 /* Photos.swift */; };
 		AE5446BB2377BB6C0052E469 /* Double+roundTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5446BA2377BB6C0052E469 /* Double+roundTo.swift */; };
 		AE5446BD2377C0AA0052E469 /* UIView+addBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5446BC2377C0A90052E469 /* UIView+addBorder.swift */; };
 		AE5446BF2377DE350052E469 /* ReviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5446BE2377DE350052E469 /* ReviewTableViewController.swift */; };
@@ -42,6 +45,9 @@
 		45DB3B114B807BC5D691FABB /* Pods-Snacktacular.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.release.xcconfig"; path = "Target Support Files/Pods-Snacktacular/Pods-Snacktacular.release.xcconfig"; sourceTree = "<group>"; };
 		AE1F0BC6236FBD7800D3C767 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AE297A482379C2B500056298 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		AE297A4A2379DDB300056298 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		AE297A4C2379FC8C00056298 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		AE297A4E2379FD4E00056298 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 		AE5446BA2377BB6C0052E469 /* Double+roundTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+roundTo.swift"; sourceTree = "<group>"; };
 		AE5446BC2377C0A90052E469 /* UIView+addBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addBorder.swift"; sourceTree = "<group>"; };
 		AE5446BE2377DE350052E469 /* ReviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewController.swift; sourceTree = "<group>"; };
@@ -94,7 +100,10 @@
 				3E8390DF206597F600512DEA /* AppDelegate.swift */,
 				AEE9E92B236B7886006BF5D5 /* Spots.swift */,
 				AEE9E929236B77C3006BF5D5 /* Spot.swift */,
+				AE297A4A2379DDB300056298 /* Reviews.swift */,
 				AE297A482379C2B500056298 /* Review.swift */,
+				AE297A4E2379FD4E00056298 /* Photos.swift */,
+				AE297A4C2379FC8C00056298 /* Photo.swift */,
 				3E8390E1206597F600512DEA /* SpotsListViewController.swift */,
 				3E0F960920659D9000AE450D /* SpotsTableViewCell.swift */,
 				3E0F960B2065A17500AE450D /* SpotDetailViewController.swift */,
@@ -298,7 +307,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE297A4D2379FC8C00056298 /* Photo.swift in Sources */,
+				AE297A4B2379DDB300056298 /* Reviews.swift in Sources */,
 				3E8390E2206597F600512DEA /* SpotsListViewController.swift in Sources */,
+				AE297A4F2379FD4E00056298 /* Photos.swift in Sources */,
 				3E0F96102065AC1A00AE450D /* SpotPhotosCollectionViewCell.swift in Sources */,
 				3E0F960C2065A17500AE450D /* SpotDetailViewController.swift in Sources */,
 				3E0F960E2065AB6400AE450D /* SpotReviewsTableViewCell.swift in Sources */,
